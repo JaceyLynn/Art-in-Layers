@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;900&family=Manrope:wght@400;500;600&display=swap');
+@import 'tailwindcss';
+
+:root {
+  --background: #f7f4ed;
+  --surface: #ffffff;
+  --text: #111111;
+  --muted-text: #6e6a61;
+  --border: #d8d2c7;
+  --wood: #c69b65;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--background);
+  color: var(--text);
+  font-family: 'Manrope', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+@theme {
+  --font-display: 'Archivo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
