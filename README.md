@@ -48,3 +48,5 @@ This repository includes a GitHub Actions workflow that deploys `dist` to GitHub
 Site URL:
 
 `https://jaceylynn.github.io/Art-in-Layers/`
+
+Deployment is handled by the GitHub Actions workflow in `.github/workflows/deploy-pages.yml`.
